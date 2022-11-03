@@ -20,10 +20,10 @@ public class Main {
                     }
                     if (operationId == 0) System.exit(0);
 
-                System.out.println("Введите первое число");
+                    System.out.println("Введите первое число");
                     firstNumber = input.nextInt();
 
-                    System.out.println("Введите первое число");
+                    System.out.println("Введите второе число");
                     secondNumber = input.nextInt();
             } catch (InputMismatchException err) {
                 System.out.println("\033[0;31m" + "Введите цельное число (int)!" + "\033[0m");
